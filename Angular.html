@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+		<body ng-app="angularapp">
+		<h1 ng-controller="firstController">
+		{{name}}</h1>
+
+		{{9+9}}
+                 
+		<script type="text/javascript">
+		 angular.module('angularapp',[]).controller('firstController',function($scope){
+           $scope.name ="hello world Am Saiteja"; 
+    
+		 }) 
+
+		</script>
+
+		</body>
+</html>
